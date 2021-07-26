@@ -7,7 +7,7 @@
 
 import Foundation
 
-//왼쪽과 오른쪽 풍선위치를 번갈아 사용
+//마지막 말풍선의 위치를 변수에 저장하여 왼쪽과 오른쪽 풍선위치를 번갈아 사용
 class ChatModel: ObservableObject{
     var text = ""
     @Published var arrayOfMessages : [String] = []

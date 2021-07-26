@@ -34,6 +34,7 @@ struct Chat: View {
                     }.frame(height: 50)
                     
                     Button("send") {
+                        
                         if model.text != "" {
                             model.position = model.position == BubblePosition.right ? BubblePosition.left : BubblePosition.right
                             model.arrayOfPositions.append(model.position)

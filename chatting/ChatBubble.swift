@@ -19,6 +19,7 @@ struct ChatBubble<Content>: View where Content: View{
         self.position = position
     }
     
+    //말풍선 모양
     var body: some View{
         HStack(spacing: 0){
             content()

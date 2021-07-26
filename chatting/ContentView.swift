@@ -13,11 +13,16 @@ struct ContentView: View {
             Color.blue.edgesIgnoringSafeArea(.all)
             VStack{
                 AppTitle1
-
             }
-           
         }
-        Chat()
+        
+        ZStack{
+            Color.green.edgesIgnoringSafeArea(.all)
+            VStack{
+                Chat()
+            }
+        }
+        
     }
 }
 
