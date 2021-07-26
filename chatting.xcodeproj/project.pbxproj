@@ -11,6 +11,11 @@
 		E8CF9B1D26AEB0D60013E0AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B1C26AEB0D60013E0AA /* ContentView.swift */; };
 		E8CF9B1F26AEB0DB0013E0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CF9B1E26AEB0DB0013E0AA /* Assets.xcassets */; };
 		E8CF9B2226AEB0DB0013E0AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CF9B2126AEB0DB0013E0AA /* Preview Assets.xcassets */; };
+		E8CF9B3026AEE2530013E0AA /* BubblePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B2F26AEE2530013E0AA /* BubblePosition.swift */; };
+		E8CF9B3326AEE2720013E0AA /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B3226AEE2720013E0AA /* ChatModel.swift */; };
+		E8CF9B3626AEE2F80013E0AA /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B3526AEE2F80013E0AA /* ChatBubble.swift */; };
+		E8CF9B3926AEE5190013E0AA /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B3826AEE5190013E0AA /* CustomScrollView.swift */; };
+		E8CF9B3C26AEE5680013E0AA /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B3B26AEE5680013E0AA /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		E8CF9B1E26AEB0DB0013E0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8CF9B2126AEB0DB0013E0AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8CF9B2326AEB0DB0013E0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CF9B2F26AEE2530013E0AA /* BubblePosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePosition.swift; sourceTree = "<group>"; };
+		E8CF9B3226AEE2720013E0AA /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		E8CF9B3526AEE2F80013E0AA /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		E8CF9B3826AEE5190013E0AA /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		E8CF9B3B26AEE5680013E0AA /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				E8CF9B1E26AEB0DB0013E0AA /* Assets.xcassets */,
 				E8CF9B2326AEB0DB0013E0AA /* Info.plist */,
 				E8CF9B2026AEB0DB0013E0AA /* Preview Content */,
+				E8CF9B2F26AEE2530013E0AA /* BubblePosition.swift */,
+				E8CF9B3226AEE2720013E0AA /* ChatModel.swift */,
+				E8CF9B3526AEE2F80013E0AA /* ChatBubble.swift */,
+				E8CF9B3826AEE5190013E0AA /* CustomScrollView.swift */,
+				E8CF9B3B26AEE5680013E0AA /* Chat.swift */,
 			);
 			path = chatting;
 			sourceTree = "<group>";
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8CF9B1D26AEB0D60013E0AA /* ContentView.swift in Sources */,
+				E8CF9B3626AEE2F80013E0AA /* ChatBubble.swift in Sources */,
+				E8CF9B3C26AEE5680013E0AA /* Chat.swift in Sources */,
+				E8CF9B3926AEE5190013E0AA /* CustomScrollView.swift in Sources */,
 				E8CF9B1B26AEB0D60013E0AA /* chattingApp.swift in Sources */,
+				E8CF9B3026AEE2530013E0AA /* BubblePosition.swift in Sources */,
+				E8CF9B3326AEE2720013E0AA /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
