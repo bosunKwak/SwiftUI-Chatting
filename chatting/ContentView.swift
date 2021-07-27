@@ -17,7 +17,6 @@ struct ContentView: View {
         }
         
         ZStack{
-            Color.green.edgesIgnoringSafeArea(.all)
             VStack{
                 Chat()
             }
