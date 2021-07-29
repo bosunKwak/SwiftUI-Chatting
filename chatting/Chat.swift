@@ -17,7 +17,8 @@ struct Chat: View {
                 //MARK:- ScrollView
                 CustomScrollView(scrollToEnd: true) {
                     LazyVStack {
-                        ForEach(0..<model.arrayOfMessages.count, id:\.self) { index in
+                        ForEach(0..<model.arrayOfMessages.count, id:\.self) {
+                            index in
                             ChatBubble(position: model.arrayOfPositions[index], color: model.arrayOfPositions[index] == BubblePosition.right ?.blue : .gray) {
                                 Text(model.arrayOfMessages[index])
                             }

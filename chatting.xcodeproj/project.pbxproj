@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E824B78426B31E87008B8B83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E824B78326B31E87008B8B83 /* GoogleService-Info.plist */; };
 		E8CF9B1B26AEB0D60013E0AA /* chattingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B1A26AEB0D60013E0AA /* chattingApp.swift */; };
 		E8CF9B1D26AEB0D60013E0AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CF9B1C26AEB0D60013E0AA /* ContentView.swift */; };
 		E8CF9B1F26AEB0DB0013E0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CF9B1E26AEB0DB0013E0AA /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E824B78326B31E87008B8B83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E8CF9B1726AEB0D60013E0AA /* chatting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CF9B1A26AEB0D60013E0AA /* chattingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chattingApp.swift; sourceTree = "<group>"; };
 		E8CF9B1C26AEB0D60013E0AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E8CF9B1C26AEB0D60013E0AA /* ContentView.swift */,
 				E8CF9B1E26AEB0DB0013E0AA /* Assets.xcassets */,
 				E8CF9B2326AEB0DB0013E0AA /* Info.plist */,
+				E824B78326B31E87008B8B83 /* GoogleService-Info.plist */,
 				E8CF9B2026AEB0DB0013E0AA /* Preview Content */,
 				E8CF9B2F26AEE2530013E0AA /* BubblePosition.swift */,
 				E8CF9B3226AEE2720013E0AA /* ChatModel.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				E8CF9B2226AEB0DB0013E0AA /* Preview Assets.xcassets in Resources */,
 				E8CF9B1F26AEB0DB0013E0AA /* Assets.xcassets in Resources */,
+				E824B78426B31E87008B8B83 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
